@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.banner-card
+{
+  background-color: white;
+  width:100vw;
+
+}
+.banner-img{
+  height:70vh;
+  width:100%;
+}
+.banner-title
+{
+  color:rgb(228,18,18);
+ position:absolute;
+ top:55vh;
+ left:5vw;
+
+}
+
+.banner-text{
+    color:white;
+    position:absolute;
+    top:60vh;
+    left:5vw;
+}
+.movie-list
+{
+  display:flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content:center;
+}
+.movie-card
+{
+  width:20vw;
+  margin:1rem;
+
+}
+.movie-img{
+  height:40vh;
+  width:100%;
+}
+.movie-title
+{
+  position:absolute;
+  top:1rem;
+  /* left:0.5rem; */
+  color:white;
+}
+.movie-button
+{
+  position:absolute;
+  top:85%;
+}
+.favourite-generes
+{
+  padding:3rem;
+}
+.favourite-table
+{
+  padding:3rem;
+}
+.button-wrapper,.trending{
+  display: flex;
+  justify-content: center;
+}
