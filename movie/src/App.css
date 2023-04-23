@@ -90,15 +90,17 @@
   position:absolute;
   top:85%;
 }
-.favourite-generes
+
+.favourites-table
 {
   padding:3rem;
-}
-.favourite-table
-{
-  padding:3rem;
+  overflow: auto;
 }
 .button-wrapper,.trending{
   display: flex;
   justify-content: center;
+}
+.favourites-generes
+{
+  padding:3rem;
 }

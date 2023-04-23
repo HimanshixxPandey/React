@@ -16,9 +16,11 @@ function App() {
         <List />
         </>
       }/>
-      <Route path='/favourite' element={<Favourite/>} />
+      <Route path='/favourites' element={<Favourite/>} />
     </Routes>
     </Router>
+    
+
    
 
   );

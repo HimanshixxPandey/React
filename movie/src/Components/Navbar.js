@@ -13,10 +13,10 @@ export default class Navbar extends Component {
           alignItems: "center",
         }}
       >
-        <Link to="/">
-          <h1>Movies App</h1>
+        <Link to="/" style={{textDecoration:'none'}}>
+          <h1 >Movies App</h1>
         </Link>
-        <Link to="/favourite">
+        <Link to="/favourites" style={{textDecoration:'none'}}>
         <h2 style={{ marginLeft: "2rem" }}>Favourites</h2></Link>
       </div>
     );
